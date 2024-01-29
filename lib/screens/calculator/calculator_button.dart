@@ -8,7 +8,7 @@ class CalculatorButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Expanded(child: Container(
-      color: Colors.blue,
+      color: Colors.black,
       margin: const EdgeInsets.all(8),
       child: ElevatedButton(onPressed: (){
          onClick(digit);
